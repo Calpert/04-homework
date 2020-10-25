@@ -1,0 +1,28 @@
+::before, ::after {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100w;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: steelblue;
+    
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hide {
+    display: none;
+}

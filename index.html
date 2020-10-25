@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Coding Quiz</title>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="scores"><a href=""></a></div>
+    <div class="timer">Time: <span id="time">0</span></div>
+    <div class="wrapper">
+
+    </div>
+<div class="container">
+    <div id="start-banner" class="start">Coding Quiz</div>
+    <p>Try to answer the following code-related questions within the time limit. Keep in mind the answers will penalize your score/time by ten seconds!</p>
+    <button id="start-button">Start</button>
+    <div id="question-container" class="hide">
+        <h3 id="question-title"></h3>
+    <div id ="answer-buttons" class="btn-grid"></div>
+</div>
+
+    <div id="feedback" class="hide"></div>
+
+    <div id="end-screen" class="hide">
+        <h4>All Done!</h4>
+        <p>Score: <span id="final-score"></span></p>
+        <p>Enter Initials: <input type="text" id="initials"></p>
+
+    </div>
+
+
+    </div>
+</div>
+
+<script defer src="script.js"></script>
+</body>
+</html>
